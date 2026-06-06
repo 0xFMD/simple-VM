@@ -1,0 +1,44 @@
+# Build outputs
+build/
+bin/
+obj/
+out/
+target/
+
+# Object / binary files
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+
+# Debug files
+*.dSYM/
+*.pdb
+*.ilk
+
+
+
+# Meson / Ninja
+.meson*
+meson-private/
+meson-logs/
+.ninja_*
+build.ninja
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
